@@ -8,7 +8,7 @@ body{
     width:100vw;
     height:100vh;
     overflow:hidden;
-    background:white;
+    background:rgb(34, 34, 34);
     position:relative;
 }
 
@@ -27,7 +27,7 @@ img{
     padding:12px 20px;
     border:none;
     border-radius:10px;
-    background:#ff4d6d;
-    color:white;
+    background:rgb(151, 33, 24);
+    color: rgb(217, 217, 217);
     cursor:pointer;
 }

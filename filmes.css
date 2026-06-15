@@ -3,8 +3,8 @@
     top: 20px;
     left: 20px;
 
-    background: #ff4d6d;
-    color: white;
+    background: rgb(151, 33, 24);
+    color: rgb(217, 217, 217);
 
     border: none;
     border-radius: 15px;
@@ -22,21 +22,21 @@
 }
 
 .voltar:hover{
-    background: #ff3358;
+    background:rgb(151, 33, 24);
 
     transform: translateY(-2px);
 
-    box-shadow: 0 8px 20px rgba(255, 77, 109, 0.35);
+    box-shadow: 0 8px 20px rgba(151, 33, 24, 0.35);
 }
 
 body{
-    background:white;
+    background:rgb(34, 34, 34);
     font-family:Arial;
 }
 
 h1{
     text-align:center;
-    color:#ff4d6d;
+    color:rgb(151, 33, 24);
     margin:30px;
 }
 
@@ -76,6 +76,7 @@ h1{
 
     text-align:center;
     margin-top:10px;
+    color: rgb(217, 217, 217);
 }
 
 .modal{
@@ -94,7 +95,7 @@ h1{
 
 .modal-content{
 
-    background:white;
+    background:rgb(217, 217, 217);
 
     width:800px;
 

@@ -3,8 +3,8 @@
     top: 20px;
     left: 20px;
 
-    background: #ff4d6d;
-    color: white;
+    background: rgb(151, 33, 24);
+    color: rgb(217,  217, 217);
 
     border: none;
     border-radius: 15px;
@@ -22,16 +22,21 @@
 }
 
 .voltar:hover{
-    background: #ff3358;
+    background: rgb(151, 33, 24);
 
     transform: translateY(-2px);
 
-    box-shadow: 0 8px 20px rgba(255, 77, 109, 0.35);
+    box-shadow: 0 8px 20px rgba(151, 33, 24, 0.35);
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: Arial;
 }
 
 h1{
     text-align:center;
-    color:#ff4d6d;
+    color:rgb(151, 33, 24);
     margin:30px;
 }
 
@@ -66,7 +71,7 @@ h1{
 
     margin-top:10px;
 
-    color:#333;
+    color:rgb(217,  217, 217);
 
     font-weight:bold;
 }
@@ -78,7 +83,7 @@ h1{
         translateY(-8px);
 
     box-shadow:
-        0 15px 30px rgba(255,77,109,0.25);
+        0 15px 30px rgba(151, 33, 24, 0.25);
 }
 
 .catalogo{
@@ -108,7 +113,7 @@ h1{
 .lugar:hover{
     transform:scale(1.05);
 
-    box-shadow:0 10px 25px rgba(255,77,109,.3);
+    box-shadow:0 10px 25px rgba(151,33, 24,.3);
 }
 
 .lugar p{
@@ -117,7 +122,7 @@ h1{
 
     font-size:1.1rem;
     font-weight:bold;
-    color:#ff4d6d;
+    color: rgb(151, 33, 24);
 }
 
 .frase-final{
@@ -125,11 +130,11 @@ h1{
 
     margin:80px auto 40px;
 
-    color:#ff4d6d;
+    color:rgb(217,  217, 217);
 
     font-size:2rem;
 
-    font-style:italic;
+    font-style:normal;
 
     font-weight:600;
 
