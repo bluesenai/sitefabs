@@ -1,0 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:white;
+    min-height:100vh;
+}
+
+#voltar{
+    position:fixed;
+    top:20px;
+    left:20px;
+
+    background:#ff4d6d;
+    color:white;
+
+    border:none;
+    border-radius:12px;
+
+    padding:12px 20px;
+
+    font-size:1rem;
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    z-index:1000;
+}
+
+#voltar:hover{
+    background:#ff3358;
+    transform:scale(1.05);
+}
+
+
+main{
+    width:90%;
+    max-width:1200px;
+
+    margin:auto;
+    padding:80px 0 40px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+}
+
+
+.experiencias h2,
+.tempo h2{
+    color:#ff4d6d;
+
+    text-align:center;
+
+    margin-bottom:20px;
+}
+
+.experiencias{
+    width:100%;
+}
+
+.cards-experiencias{
+    display:flex;
+    gap:20px;
+}
+
+.card{
+    flex:1;
+
+    height:220px;
+
+    background:#ffd6de;
+
+    border-radius:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    text-decoration:none;
+
+    color:#333;
+
+    font-size:1.5rem;
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+
+    box-shadow:0 10px 25px rgba(255,77,109,.25);
+}
+
+
+.tempo{
+    background:#fff5f7;
+
+    border:3px solid #ffd6de;
+
+    border-radius:25px;
+
+    padding:30px;
+
+    height:fit-content;
+}
+
+.contador{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top: 50px;
+}
+
+.caixa-tempo{
+    width:100px;
+    height:100px;
+
+    background:#ff4d6d;
+    color:white;
+
+    border-radius:20px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.caixa-tempo span{
+    font-size:2rem;
+    font-weight:bold;
+}
+
+.caixa-tempo p{
+    font-size:.9rem;
+}
+
+.desde{
+    text-align:center;
+    margin-top:20px;
+    color:#555;
+}
+
+
+.cartas{
+    grid-column:1 / 3;
+
+    background:#ff4d6d;
+
+    color:white;
+
+    text-decoration:none;
+
+    text-align:center;
+
+    padding:30px;
+
+    border-radius:999px;
+
+    font-size:1.4rem;
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.cartas:hover{
+    transform:scale(1.03);
+
+    background:#ff3358;
+}
+
+
+@media(max-width:800px){
+
+    main{
+        grid-template-columns:1fr;
+    }
+
+    .cards-experiencias{
+        flex-direction:column;
+    }
+
+    .cartas{
+        grid-column:auto;
+    }
+
+}

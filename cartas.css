@@ -1,0 +1,109 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:white;
+    text-align:center;
+    padding:40px;
+}
+
+h1{
+    color:#ff4d6d;
+    margin-bottom:40px;
+}
+
+.voltar{
+    position:fixed;
+    top:20px;
+    left:20px;
+
+    background:#ffd6de;
+    color:#ff4d6d;
+
+    border:2px solid #ff4d6d;
+
+    border-radius:999px;
+
+    padding:12px 20px;
+
+    cursor:pointer;
+}
+
+#envelope{
+
+    width:300px;
+    height:220px;
+
+    margin:auto;
+
+    background:#ffd6de;
+
+    border-radius:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.3s;
+}
+
+#envelope:hover{
+
+    transform:scale(1.05);
+}
+
+.frente{
+
+    font-size:4rem;
+}
+
+.frente p{
+
+    font-size:1rem;
+    margin-top:10px;
+}
+
+#carta{
+
+    display:none;
+
+    max-width:700px;
+
+    margin:40px auto;
+
+    background:#fff5f7;
+
+    border:3px solid #ffd6de;
+
+    border-radius:20px;
+
+    padding:40px;
+
+    text-align:left;
+
+    line-height:1.8;
+}
+
+#carta h2{
+
+    color:#ff4d6d;
+
+    margin-bottom:20px;
+}
+
+.assinatura{
+
+    margin-top:30px;
+
+    text-align:right;
+
+    font-weight:bold;
+
+    color:#ff4d6d;
+}
