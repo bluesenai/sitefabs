@@ -128,17 +128,15 @@ h1{
 .frase-final{
     text-align:center;
 
-    margin:80px auto 40px;
+    margin:30px auto 15px;
 
     color:rgb(217,  217, 217);
 
-    font-size:2rem;
+    font-size:1.1rem;
 
-    font-style:normal;
+    font-style:italic;
 
     font-weight:600;
 
-    max-width:900px;
-
-    line-height:1.6;
+    max-width:600px;
 }
